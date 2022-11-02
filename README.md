@@ -30,3 +30,19 @@ Se o preço por item não for positivo ele deve ser indicado como 0.
 Implemente um método chamado obterValorTotal() que calcula o valor da fatura (isso é, multiplica a quantidade pelo preço do item).
 
 Importe a classe Fatura em app.js e crie pelo menos uma instância desta classe para testar a implementação.
+
+## [M1S05] Ex 3 - Classe Personagem
+Em três arquivos (index.html, app.js, Personagem.js) resolva o seguinte exercício:
+
+Inclua o arquivo app.js em index.html como type="module".
+
+Para modelar um jogo de ação, em Personajem.js, crie a classe Personagem que possua os atributos nome e percentualVida e a exporte como padrão (export default).
+
+O nome deve ser indicado no construtor da classe, e o percentual de vida é iniciado com 100.
+
+Crie o método sofreuDano(percentualDano) cuja implementação diminua o valor de percentualDano do percentual de vida do personagem
+(até o limite de zero).
+
+Crie também o método usouKitMedico() que adiciona 10 pontos ao percentual de vida do personagem (até o limite de 100).
+
+Importe a classe Personagem em app.js e crie pelo menos uma instância de personagem para testar.
