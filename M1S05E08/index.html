@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/style.css">
+    <title>M1S05E08</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <form id="form">
+        <div class="login-header">
+          <h1>Login</h1>
+        </div>
+        <div class="login-input">
+          <div class="input-container">
+            <label for="email">E-mail</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div class="input-container">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha" />
+            <img src="./content/eye.svg" alt="eye"  id="eye"/>
+          </div>
+        </div>
+        <div class="login-footer">
+          <input type="submit" value="Acessar" id="loginButton" class="login-button" />
+        </div>
+        <span id="erro" hidden></span>
+      </form>
+      
+    </div>
+  </body>
+  <script type="module" src="./js/Usuario.js" ></script>
+  <script type="module" src="./js/app.js"></script>
+</html>
