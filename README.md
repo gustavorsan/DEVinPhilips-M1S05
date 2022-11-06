@@ -58,9 +58,18 @@ Depois crie as subclasses (de Animal) Cachorro e Gato com os atributos nome e id
 
 Importe as classes Cahorro e Gato para app.js, crie uma instância de cada subclasse para testar, conforme abaixo.
 
-Exemplos:
 
-const snoopy = new Cachorro('snoopy', 10);
-console.log( snoopy.som );   // "latido"     
-const frajola = new Gato('frajola', 8);
-console.log( frajola.som );   // "miado"
+## [M1S05] Ex 5 - Classe Área
+Em três arquivos (index.html, app.js, CalculadoraDeArea.js) resolva o seguinte exercício:
+
+Inclua o arquivo app.js em index.html como type="module".
+
+Em CalculadoraDeArea.js, crie uma classe CalculadoraDeArea que tenha os atributos tipo (string), base (number) e altura (number).
+
+Implemente o método calcular() que faça o cálculo da área conforme o tipo do polígono informado:
+
+"triangulo": (base * altura) / 2
+"quadrado" e "retangulo" : base * altura
+Importe a classe CalculadoraDeArea em app.js e teste a implementação com instâncias dessa classe para um triângulo de base 6 cm e altura 8 cm, para um quadrado de base e altura de 4 cm e um retângulo de base 4 cm e altura 6 cm.
+
+Imprima o resultado calculado no console.
